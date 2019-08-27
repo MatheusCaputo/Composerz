@@ -12,6 +12,9 @@
           <SubComponents>
             <MenuItem class="javax.swing.JMenuItem" name="jCadastrarFormula">
               <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/View/icons/Icones/tag_blue.png"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="Produto"/>
               </Properties>
               <Events>
@@ -20,6 +23,9 @@
             </MenuItem>
             <MenuItem class="javax.swing.JMenuItem" name="jCadastrarInsumos">
               <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/View/icons/Icones/tag_blue_add.png"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="Insumos"/>
               </Properties>
               <Events>
@@ -38,6 +44,9 @@
           <SubComponents>
             <MenuItem class="javax.swing.JMenuItem" name="jConsultarFormulas">
               <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/View/icons/Icones/book_open.png"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="Produtos"/>
               </Properties>
               <Events>
@@ -46,6 +55,9 @@
             </MenuItem>
             <MenuItem class="javax.swing.JMenuItem" name="jConsultarCusto">
               <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/View/icons/Icones/money_delete.png"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="Custo de produ&#xe7;&#xe3;o"/>
               </Properties>
               <Events>

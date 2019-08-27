@@ -65,6 +65,7 @@ public class MenuPrincipal extends javax.swing.JFrame {
         jMenuCadastrar.setText("Cadastrar");
         jMenuCadastrar.setToolTipText("");
 
+        jCadastrarFormula.setIcon(new javax.swing.ImageIcon(getClass().getResource("/View/icons/Icones/tag_blue.png"))); // NOI18N
         jCadastrarFormula.setText("Produto");
         jCadastrarFormula.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -73,6 +74,7 @@ public class MenuPrincipal extends javax.swing.JFrame {
         });
         jMenuCadastrar.add(jCadastrarFormula);
 
+        jCadastrarInsumos.setIcon(new javax.swing.ImageIcon(getClass().getResource("/View/icons/Icones/tag_blue_add.png"))); // NOI18N
         jCadastrarInsumos.setText("Insumos");
         jCadastrarInsumos.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -90,6 +92,7 @@ public class MenuPrincipal extends javax.swing.JFrame {
             }
         });
 
+        jConsultarFormulas.setIcon(new javax.swing.ImageIcon(getClass().getResource("/View/icons/Icones/book_open.png"))); // NOI18N
         jConsultarFormulas.setText("Produtos");
         jConsultarFormulas.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -98,6 +101,7 @@ public class MenuPrincipal extends javax.swing.JFrame {
         });
         jMenuConsultar.add(jConsultarFormulas);
 
+        jConsultarCusto.setIcon(new javax.swing.ImageIcon(getClass().getResource("/View/icons/Icones/money_delete.png"))); // NOI18N
         jConsultarCusto.setText("Custo de produção");
         jConsultarCusto.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
